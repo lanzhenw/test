@@ -36,7 +36,7 @@ from keras.layers import Concatenate
 
 #Download instance norm. code from the link above.
 #Or install keras_contrib using guidelines here: https://github.com/keras-team/keras-contrib 
-from instancenormalization import InstanceNormalization  
+from keras.layers import InstanceNormalization  
 
 from matplotlib import pyplot
 
